@@ -1,0 +1,29 @@
+#container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#image-area {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+
+}
+
+#background-image {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#options {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("images/back.jpg"); /* Đường dẫn đến hình nền */
+  background-size: cover; /* Để hình nền bao phủ toàn bộ trang web */
+  background-repeat: no-repeat; /* Để hình nền không bị lặp lại */
+  /* Các thuộc tính CSS khác của bạn */
+}
